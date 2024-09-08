@@ -63,7 +63,7 @@ def generate_response(query, relevant_chunks, generator, max_new_tokens=50):
 # Use HTML to center the image and the title
 import streamlit as st
 
-st.image("/Users/priyadharshinim/Desktop/hackathon/images.jpeg", width=70)
+st.image("images.jpeg", width=70)
 
 # Centering the title
 st.markdown(

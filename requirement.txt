@@ -1,0 +1,6 @@
+PyPDF2
+torch
+sentence-transformers
+scikit-learn
+transformers
+streamlit

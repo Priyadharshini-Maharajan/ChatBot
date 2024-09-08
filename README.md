@@ -13,4 +13,10 @@ Streamlit
 pipeline 
 GPT2Tokenizer
 
-#Do install the necessary packages mentioned in the requirement.txt file to run the project
+#DO INSTALL THE NECESSARY PACKAGES IN requirement.txt TO RUN THE PROJECT
+  pip install -r requirement.txt
+
+#TO EXECUTE THE PROJECT
+  streamlit run main.py
+
+

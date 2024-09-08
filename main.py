@@ -48,7 +48,7 @@ def retrieve_relevant_chunks(query, chunk_embeddings, text_chunks, model, top_k=
 gpt2_model = GPT2LMHeadModel.from_pretrained("gpt2")
 tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
 # Use GPU if available
-generator = pipeline('text-generation', model=gpt2_model, tokenizer=tokenizer, device=0)
+generator = pipeline('text-generation', model=gpt2_model, tokenizer=tokenizer, device=-1)
 
 # Function to generate a response using the GPT-2 model
 def generate_response(query, relevant_chunks, generator, max_new_tokens=50):

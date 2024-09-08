@@ -13,6 +13,4 @@ Streamlit
 pipeline 
 GPT2Tokenizer
 
-
-
- 
+#Do install the necessary packages mentioned in the requirement.txt file to run the project
